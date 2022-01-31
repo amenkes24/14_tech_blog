@@ -8,17 +8,22 @@
     margin: 0;
     font-family: sans-serif;
     color: #333;
+    background-color: #d9ead3;
   }
-  
+
+  .navigation {
+    background-color: black;
+  }
+
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #d9ead3;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #c8e9bb;
   }
   
   button {
@@ -75,15 +80,19 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1%;
+    padding: 10px;
   }
-  
+
   header h1 {
     font-size: 1em;
+  }
+
+  h1 {
+    padding-left: 10px;
+    padding-top: 0px;
   }
   
   main {
@@ -127,19 +136,39 @@
     font-size: 90%;
     color: #7d7d7d;
   }
+
+  .title {
+    background-color: black;
+    color: #d9ead3;
+    margin: 0px;
+  }
+
+  .col {
+    margin: 0px;
+    background-color: black;
+  }
+
+  #rightside {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    border: solid;
+    margin-bottom: 20px;
+  }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .meta {
+    padding: 5px;
+  }
   
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
   }
   
   .comment-form {
